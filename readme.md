@@ -4,6 +4,9 @@ Desafio prático - Portfólio Dev
 
 # Foi trabalhado nessa aplicação:
 
-#Criação de layouts com CSS;            #CSS Flexbox;
-#Posicionamento de elementos;           #CSS Grid;
-#Variáveis CSS;                         #Pseudo-class e pseudo-elements;
+#Criação de layouts com CSS;            
+#Posicionamento de elementos;           
+#Variáveis CSS;                        
+#CSS Flexbox;
+#CSS Grid;
+#Pseudo-class e pseudo-elements; 

@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+
+    width: 1366px; /*colocar em 100vw para manter a responsividade*/
+    height: 750px;
+    background: url("/styles/images/Background_Intro.png") no-repeat center/cover;
+    border: 1px solid red;
+
+    & > div:nth-child(1) {
+        width: 32px;
+        height: 32px;
+        /* border: 1px solid red ; */
+        position: absolute;
+        top: 661px;
+
+}
+
+}
+
+.info {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    width: 1040px;
+    height: 447px;
+    margin: 120px auto 183px;
+
+}
+
+.header {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 680px;
+    height: 327px;
+    gap: 56px;
+
+    & .avatar {
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 112px;
+    height: 112px;
+    position: relative;
+    
+    justify-content:center;
+
+    }
+
+
+
+}
+
+.avatar p {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    background: url("/styles/icons_1/codeVector.png") no-repeat center/cover;
+    padding: 3.5px 0.5px;
+}
+
+
+
+.user {
+    border: 2px solid var(--color-red);
+    border-radius: 9999px;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    padding: 4.36px;
+
+    & img {
+        background-color: yellow;
+        /* object-fit: cover; */
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+    }
+}
+
+.text { 
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 680px;
+    height: 159px;
+    text-align: center;
+    font: var(--subtitle);
+
+    & .title {
+        width: 680px;
+        height: 99px;
+    }
+
+    & .title p {
+        /* border: 1px solid red; */
+
+        height: 24px;
+        color: var(--base-gray5);
+        margin-bottom: 8px;
+    }
+
+    & .title p span {
+       color: var(--color-red); 
+    }
+
+    & .title p:nth-child(2) {
+        /* border: 1px solid blue; */
+        height: 67px;
+        /* font: var(--title-lg); */
+    }
+
+    & p{
+        height: 40px;
+        color: var(--base-gray4);
+
+    }
+
+}
+
+
+
+

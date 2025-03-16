@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--color-red: #E3646E;
+--color-purple: #BB72E9;
+--color-blue: #3996DB;
+--color-green: #82BC4F;
+--color-yellow: #EABD5F;
+
+--base-gray1: #0D0E11;
+--base-gray2: #16181D;
+--base-gray3: #292C35;
+--base-gray4: #878EA1;
+--base-gray5: #C0C4CE;
+--base-gray6: #E2E4E9;
+
+--font-family-asap: "Asap", serif;
+--title-lg: bold 56px/120% var(--font-family-asap);
+--title-md: bold 24px/120% var(--font-family-asap);
+--title-sm: bold 16px/120% var(--font-family-asap);
+
+--font-family-inconsolata: "Inconsolata", serif;
+--subtitle: 400 20px/120% var(--font-family-inconsolata);
+
+
+--font-family-maven: "Maven Pro", serif;            
+--text-md: 400 16px/140% var(--font-family-maven);
+--text-sm: 400 14px/140% var(--font-family-maven);
+
+}
+
+body {
+    width: 1366px;
+    height: 2934px;
+    border: 1px solid blue;
+
+}
+
+
+
+

@@ -7,14 +7,12 @@
 #intro {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     position: relative;
-
     width: 1366px; /*colocar em 100vw para manter a responsividade*/
     height: 750px;
     background: url("/styles/images/Background_Intro.png") no-repeat center/cover;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     & > div:nth-child(1) {
         width: 32px;
@@ -22,7 +20,6 @@
         /* border: 1px solid red ; */
         position: absolute;
         top: 661px;
-
 }
 
 }
@@ -31,10 +28,12 @@
     /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 1040px;
     height: 447px;
     margin: 120px auto 183px;
-
+    gap: 80px;
 }
 
 .header {
@@ -57,9 +56,6 @@
     justify-content:center;
 
     }
-
-
-
 }
 
 .avatar p {
@@ -130,10 +126,41 @@
     & p{
         height: 40px;
         color: var(--base-gray4);
+    }
+}
 
+.tags {
+    /* border: 1px solid red; */
+    
+    display: flex;
+    width: 754px;
+    height: 40px;
+    gap: 16px;
+    color: var(--base-gray5);
+    justify-content: center;
+
+
+    & .tag {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        padding: 8px 16px;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--base-gray3);
+        border-radius: 100px;
+    }
+
+    & img {
+        /* border: 1px solid blue; */
+        width: 24px;
+        height: 24px;
     }
 
 }
+
+
 
 
 

@@ -161,7 +161,102 @@
 }
 
 
+/*Parte 2 - Projects*/
+
+
+#projects {
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    background-color: var(--base-gray2);
+    width: 1366px;
+    height: 917px;
+    padding-top: 72px;
+
+    & .header2 {
+        /* border: 1px solid red; */
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        width: 1040px;
+        height: 61px;
+        
+    }
+
+    & .header2 p {
+        /* border: 1px solid blue; */
+
+    }
+
+    & .header2 p:nth-child(1) {
+        color: var(--color-red);
+        height: 24px;
+    }
+
+    & .header2 p:nth-child(2) {
+        color: var(--base-gray6);
+        height: 29px;
+    }
+
+}
+
+
+.grid {
+    /* border: 1px solid red; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 1040px;
+    height: 584px;
+
+    & .card {
+        /* border: 1px solid red; */
+
+        display: flex;
+        background-color: var(--base-gray3);
+        flex-direction: column;
+        align-items: center;
+        width: 330px;
+        height: 280px;
+        padding-inline: 12px;
+        padding-top: 12px;
+        gap: 20px;
+        border-radius: 12px;
+    }
+
+    & .card img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+    }
+
+    & .text-card {
+        /* border: 1px solid blue; */
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        
+    }
+
+    & .text-card p:nth-child(1) {
+        font: var(--title-sm);
+        color: var(--base-gray6);
+    }
+
+    & .text-card p:nth-child(2) {
+        font: var(--text-sm);
+        color: var(--base-gray5);
+    }
+}
 
 
 
+/*SERVIÇOS*/
 
